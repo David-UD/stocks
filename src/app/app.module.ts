@@ -6,11 +6,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SummaryComponent } from './components/summary/summary.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SummaryComponent
+    SummaryComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
